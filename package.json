@@ -1,0 +1,22 @@
+{
+    "name": "redis-store-express-session",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    },
+    "dependencies": {
+        "connect-redis": "^7.1.1",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "ioredis": "^5.4.1"
+    }
+}
